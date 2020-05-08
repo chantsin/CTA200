@@ -1,0 +1,545 @@
+ssh student12@gw.cita.utoronto.ca
+/cita/local/bin/passwd
+module load matlab
+module
+load
+ls
+ls -l
+ls -ld
+cd
+cd Desktop
+ls
+pwd
+cd /
+pwd
+ls
+ls -la
+cd 
+cd
+pwd
+ls
+more .bash
+ls - la
+ls -la
+cd ~murray
+dir
+ls
+cd ~murray
+ls -la
+ls
+cd
+ls
+cd ./desktop
+cd ./Desktop
+ls
+ls -la
+cd /home/cta200
+ls
+finger cta200
+finger student12
+cd /mnt/scratch-lustre/
+ls
+cd stu
+cd student04
+ls
+dir
+pwd
+cd .
+pwd
+cd ..
+pwd
+cd stu
+cd student04
+pwd
+ps -aux
+cd
+ls
+cd /mnt/scr
+cd /mnt/scratch
+ls
+ls -la
+cd
+mkdir /mnt/scratch-lustre/student12/gauss2d
+cd 
+ls
+cd /home/cta200
+pwd
+ls
+cd ./Research
+pwd
+ls
+cd ./gauss2d
+ls
+pwd
+cp -av /hom/cta200/Research/gauss2d /mnt/scratch-lustre/student12/gauss2d
+cp -av /home/cta200/Research/gauss2d /mnt/scratch-lustre/student12/gauss2d
+cd /mnt/scratch-lustre/student12/gauss2d
+pwd
+ls
+ls -la
+pwd
+ls
+cd ./gauss2d
+ls
+more gauss2d.cc 
+cd
+pwd
+ls
+cd /mnt/scratch-lustre/student12/gauss2d
+ls
+cd ./gauss2d
+ls
+ls > junk
+whoami
+cd gauss2d
+cd 
+ls
+cd /mnt/scratch-lustre
+ls
+cd ./student12/gauss2d
+ls
+cd ./gauss2d
+pwd
+ls
+cd ../
+pwd
+cd ./gauss2d
+less gauss2d.cc
+cat Makefile
+vim plot.py
+jobs
+ls -la
+pwd
+gcc
+gcc gauss2d.cc -o gauss2d
+ls -lt
+pwd
+ls
+./gauss 2d > data.txt
+./ gauss2d > data.txt
+./gauss2d > data.txt
+ls
+gcc gauss2d.cc -o gauss2d
+pwd
+./gauss2d
+cd ./gauss2d
+ls
+module load python/2.7.12
+module load gcc/5.4.0
+module load python/2.7.12
+./script.py
+./plot.py
+./plot/py < data.txt
+./plot.py < data.txt
+./plot.py data.txt
+less gauss2d.cc
+cat Makefile
+module avail
+module load gcc/5.4.0
+g++ gauss2d.cc -o gauss2d
+ls -lt
+gauss2d
+head plot.py
+./plot.py
+module load python/2.7.12
+./plot.py
+./plot.py data.txt
+pwd
+module load python/2.7.12
+python script.py
+python plot.py
+pwd
+cd
+ls
+cd /mnt/scratch-lustre/student12/gauss2d
+ls
+cd gauss2d
+ls
+ls -la
+./plot.py data.txt
+module load python/2.7.12
+module module load gcc/5.4.0
+module load gcc/5.4.0
+module load python/2.7.12
+./plot.py data.txt
+vncserver
+git config --global user.name "Calvin"
+git config --global user.email calvintsingshing.chan@mail.utoronto.ca
+cd ~
+mkdir -p repos/gauss2d.git
+cd repos/gauss2d.git
+git init --bare
+cd /mnt/scratch-lustre/student12/gauss2d
+git init
+echo "*.o" > .gitignore
+git add gauss2d.cc Makefile plot.y .gitignore
+ls
+cd gauss2d
+ls
+git add gauss2d.cc Makefile plot.py .gitignore
+git status
+git add gauss2d.cc Makefile plot.py .gitignore
+pwd
+ls -la
+git init
+ls -la
+cd ~
+ls -la
+cd repos
+ls-la
+ls -la
+pushd /mnt/scratch-lustre/student12/gauss2d
+ls -la
+ls
+cd gauss2d
+ls
+cd ../
+ls
+history
+pwd
+ls -la
+cp gauss2d/* .
+ls -la
+rm -rf gauss2d
+ls -la
+pwd
+git add gauss2d.cc Makefile plot.py .gitignore
+git status
+git commit -m "Working 2D Gaussian array generation code and plotting script"
+git log
+git remote add origin /home/student12/repos/gauss2d.git
+cat .git/config
+git push --set-upstream origin master
+git status
+vncserver
+git status
+git config --global user.name "Calvin"
+git config --global user.email calvintsingshing.chan@mail.utoronto.ca
+git status
+cd ~
+ls -la
+cd /mnt/scratch-lustre/student12/gauss2d
+ls
+git status
+vim gauss2d.cc
+ls
+vim plot.py
+git status
+git add -u
+ls
+git status
+git add gauss2d.cc
+git status
+git diff
+git add gauss2d.cc plot.py
+git status
+vim gauss2d.cc
+git status
+vim gauss2d.cc
+git diff
+git checkout -- *
+git checkout *
+git checkout -f master
+gi clean -fd
+git clean -fd
+git status
+sed 's/sigma/dev/g' gauss2d.cc | less
+sed 's/sigma/dev/g' gauss2d.cc | /sigma
+sed 's/sigma/dev/g' gauss2d.cc | less
+git status
+sed 's/sigm/dev/g' gauss2d.cc | less
+git status
+sed -i 's/sigma/dev/g' gauss2d.cc
+git diff
+git add -u
+git status
+git commit -m "Renamed sigma to dev[iation]"
+git push
+git log --stat --pretty=fuller --decorate
+gitk
+history
+ls
+cd CTA200
+ls
+git config user.name "Calvin Chan"
+git config user.email calvintsingshing.chan@mail.utoronto.ca
+pwd
+ls
+git init
+ls -la
+touch README.md
+ls
+pwd
+ls
+cd CTA200
+git config user.name "Calvin"
+git config user.email calvintsinghshing.chan@mail.utoronto.ca
+git status
+touch LICENSE
+ls
+git add LICENSE README.md
+git status
+git commit
+git commit -m "for reference"
+cd
+ls
+cd repos
+ls
+cd /CITA/CTA200H
+echo $USER
+dir
+ls
+git remote add origin https://github.com/chantsin/CTA200.git
+git remote add origin https://github.com/chantsin/CTA200
+git remote -v
+git status
+cd CTA200/CTA200H/assignment1_2020
+ls
+pwd
+cd
+ls
+cd CTA200
+ls
+pwd
+cp -av /home/student12/CTA200/CTA200H/assignment1_2020 /home/student12/CTA200
+ls
+command
+cd CTA200H
+ls
+pwd
+mv /home/student12/CTA200/CTA200H /home/student12
+ls
+pwd
+cd
+ls
+cd CTA200
+ls
+mv /home/student12/CTA200/assignment1_2020 /home/student12
+cd
+ls
+cd CTA200
+ls
+cd
+rm /home/student12/assignment1_2020
+rm -r /home/student12/assignment1_2020
+cd
+ls
+rm -rf CTA200H.wiki
+ls
+cd CTA200H
+ls
+cd assignment1_2020
+ls
+pwd
+cd
+cd CTA200
+ls
+mv /home/student12/CTA200H/assignment1_2020/average.c /home/student12/CTA200
+cd
+cd CTA200
+ls
+mv /home/student12/CTA200H/assignment1_2020/average.h /home/student12/CTA200
+ms /home/student12/CTA200H/assignment1_2020/main.c /home/student12/CTA200
+mv /home/student12/CTA200H/assignment1_2020/main.c /home/student12/CTA200
+ls
+cd
+ls
+cd CTA200
+ls
+cd repos
+cd
+cd repos
+ls
+cd gauss2d.git
+ls
+git 
+git status
+cd branches
+ls
+cd .
+ls
+cd ..
+ls
+cd
+ls
+cd CTA200H
+ls
+git add
+git
+git status
+git config user.name "chantsin"
+git config user.name "Calvin"
+cosmo1$ git config user.email calvintsinghshing.chan@mail.utoronto.ca
+git config --global user.name "Calvin"
+git config --global user.email "calvintsingshing.chan@mail.utoronto.ca
+git config --global user.name calvintsingshing.chan@mail.utoronto.ca
+ls
+git remote add origin https://github.com/chantsin/CTA200.git
+cd CTA200
+ls
+git remote add origin https://github.com/chantsin/CTA200.git
+pwd
+cd
+ls
+cd repos
+ls -la
+cd CTA200
+cd
+ls
+cd CTA200
+ls
+git pull https://github.com/chantsin/CTA200.git
+ls
+cd
+ls
+CTA200
+cd CTA200
+ls -la
+cd README.md
+pwd
+cd
+ls
+pwd
+cd repos
+ls
+cd
+ls
+cd CTA200
+git clone https://github.com/CITA/CTA200H/tree/master/assignment1_2020
+git remote -v
+cd CTA200
+cd
+ls
+CTA200
+cd CTA200
+ls
+cd
+ls
+git clone https://github.com/CITA/CTA200H.wiki.git
+ls
+cd CTA200H.wiki
+ls
+ls -la
+cd
+cd CTA200
+ls
+cd
+/home/cta200/Research
+cd /home/cta200/Research
+ls
+cd
+ls
+ls -la
+cd /home/cta200
+ls
+cd repos
+ls
+cd .
+cd Documents
+cd
+ls
+cd CTA200H.wiki
+ls
+cd
+ls
+cd CTA200
+ls
+git clone https://github.com/CITA/CTA200H.git
+ls 
+cd CTA200H
+ls
+cd assignment1_2020
+ls
+cd
+ls
+cd
+ls
+cd CTA200
+ls
+make
+module load gcc/4.9.2 python/2.7.10
+jupyter notebook &
+jupyter notebook --no-browser --port=8888
+cd
+ls
+cd CTA200
+ls
+make
+git commit Makefile average.c average.h main.c
+git status
+git add Makefile main.c average.c average.h
+git status
+git commit Makefile average.c average.h main.c
+git remote -v
+git push
+git push origin master
+git push --set-upstream origin master
+git status
+git remote add origin https://github.com/chantsin/CTA200.git
+git push
+git
+git log
+git status
+git remote -v
+git push 
+cd
+ls
+cd CTA200
+history
+ls
+git init
+git status
+git commit
+git remove -v
+git mote -v
+git remote -v
+git remote add origin remote repository error: The requested URL returned error: 403 Forbidden while accessing https://github.com/chantsin/CTA200.git/info/refs
+fatal: HTTP request failed
+git remote add origin remote repository https://github.com/chantsin/CTA200.git
+git push -f origin master
+ls -la
+pwd
+make
+make clean
+ls -la
+ls
+rm *.o
+ls
+rm #Makefile#~ Makiefile~
+rm *#Makefile#
+rm *#Makefile#~
+rm *Makefile~
+ls
+run
+rm *run
+ls
+pwd
+git init
+git status
+git add average.c average.h main.c
+git commit -m "Added average.c average.h and main.c"
+git remote -v
+git status
+git add average.c average.h main.c
+git status
+git push
+git branch --set-upstream-to origin/master
+git branch -u origin/master
+git status
+git remote -v
+ls -la
+rm -rf .git/
+ls -la
+git remote -v
+git init
+git remote add origin https://github.com/chantsin/CTA200.git
+git status
+git add Makefile average.c average.h main.c
+git status
+git commit -m "added makefile, average.c, average.h"
+git remote -v
+git push -f origin master
+git push
+git status
+history
+history -w ~/history.txt
