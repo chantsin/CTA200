@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+
+\title{CTA200 Project: Rotation Measure Synthesis}
+\author{Calvin Tsing Shing Chan 1004096630 }
+\date{May 2020}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+In this project the primary goal is to simulate an observation of a Faraday depth signal that has one rotation measure component. This is done so with the following equation: 
+\begin{equation}
+P(\lambda_{k}^2)=Q(\lambda_{k}^2)+iU(\lambda_{k}^2)=e^{2i(\lambda_{k}^2RM+\chi_{0})}
+\end{equation}
+However, to reconstruct the simulation each step requires the previous code to work. Throughout this script, there have been bugs that have not been fixed yet, this results in the assignment being incomplete. 
+\section{Description}
+\subsection{Function and Parameters}
+In this section, I tried to define the required function, a Dirac-delta, to simulate the ground truth signal (this was done so with the help of python codes provided by my supervisor). I have also inputted some of the required parameters needed to simulate the observation. However, because the project is not complete, there are still parameters missing.
+\subsection{Simulating an Observation}
+For this section, we try to construct the ground truth signal by defining our $x_{p}$. This was intended to be a Dirac-delta function although because there was some unsolved issues with defining the function earlier on, the script does not work out. 
+\subsection{Measurement Matrix}
+This section deals with trying to construct the measurement operator. This was done so with the help of codes provided by my supervisor. The entries for the matrix is essentially constructed by the following equation:
+\begin{equation}
+A_{kp}=e^{2i\lambda_{k}^2\phi_{p}}
+\end{equation}
+Although there are still bugs that have not been resolved thus the code cannot run properly. 
+\end{document}
