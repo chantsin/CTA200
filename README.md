@@ -4,4 +4,6 @@ A course by the Canadian Institute for Theoretical Astrophysics that provides an
 
 ## Authors
 
-[Calvin Chan](https://github.com/chantsin)
+Contributors name and contact information
+
+* [Calvin Chan](https://github.com/chantsin)
